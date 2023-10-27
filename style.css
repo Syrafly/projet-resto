@@ -9,7 +9,10 @@ body {
     }
 
 h1 {color:#d49c0ee5;}
-h2 {color:#d49c0ee5;}
+h2 {color:#d49c0ee5;
+    margin-top: 50px;
+
+}
 
 div {
     display: inline;
@@ -30,6 +33,7 @@ h4 {
         align-items: center;
         font-weight: bold;
         justify-content: space-between;
+       
     }
     
    /* .box .image{
@@ -72,12 +76,6 @@ h4 {
         margin: 0;
         padding: 0;
     }*/
-    
-    @media (min-width: 600px) {
-        .box {
-            flex-basis: calc(50% - 10px); /* Sur les écrans plus larges, deux boîtes par ligne */
-    
-        } }
 
     .align2 li {
         font-weight: bold;
@@ -151,3 +149,14 @@ font-weight: bold;
 .ref {
     list-style-type: none;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+    header h1, nav, .banniere, .imgresto, .image {
+        width: 100%;
+        height: auto;
+    }
+}
+    
