@@ -24,12 +24,30 @@ div {
 
 .banniereform
 {
-    margin-top: 20px;
-    width: 50%;
+    margin-top: 5px;
+    width: 40%;
     height: auto;
 }
 
 .menuspace {margin-right: 40px;
 color:#d49c0ee5;
 font-weight: bold;
+}
+
+.menuspace2 {
+    color:#d49c0ee5;
+    font-weight: bold; 
+}
+
+form div {
+ display: block;
+}
+
+textarea {
+    font-family:'Ramisland';
+    src: url(police/Ramisland.otf);
+    border: ridge #d49c0ee5;}
+
+input {
+    border-radius: 40px 40px 40px 40px;
 }
