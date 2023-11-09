@@ -20,15 +20,34 @@ div { display: inline; } h4 { overflow-wrap: break-word; border: 1px solid #000;
 
 textarea {
     font-family:'Ramisland';
-    src: url(police/Ramisland.otf);
-    border: ridge #d49c0ee5;}
-input {
-    border-radius: 40px 40px 40px 40px;
+    src: url(police/Ramisland.otf);}
+
+body {
+        font-family: 'Ramisland', sans-serif;
+    }
+
+h1 {color:#d49c0ee5;}
+
+div {
+    display: inline;
+    }
+
+
+.banniere
+{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
 }
-.menuspace2 {
-    color:#d49c0ee5;
-    font-weight: bold;
+
+.banniereform
+{
+    margin-top: 20px;
+    width: 50%;
+    height: auto;
 }
-form div {
- display: block;
+
+.menuspace {margin-right: 40px;
+color:#d49c0ee5;
+font-weight: bold;
 }
